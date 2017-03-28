@@ -4,4 +4,4 @@ RUN apk add --no-cache hunspell hunspell-pt-br hunspell-en
 
 WORKDIR /workdir
 
-ENTRYPOINT /usr/bin/hunspell 
+ENTRYPOINT ["/usr/bin/hunspell"]
